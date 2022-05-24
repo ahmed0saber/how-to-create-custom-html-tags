@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    position: relative;
+    font-family: 'Macondo', cursive;
+}
+body{
+    background-color: #f7f7f7;
+}
+.card{
+    padding: 10px;
+    background-color: #e3e3e3;
+    color: #080808;
+    flex: 1;
+    min-width: 200px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+.card:hover{
+    background-color: #080808;
+    color: #e3e3e3;
+}
